@@ -1,0 +1,44 @@
+/*ITIS 3135 Activity 3 css file*/
+
+/*Deleted all of the original style for the coffee webpage*/
+.titleText {
+	text-align: center;
+	color: blue;
+	font-size: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subTitle {
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+	text-align: center;
+	color: blue;
+	font-family: 'Merriweather', serif;
+}
+
+.formText {
+	color: blue;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
+	background-color: silver;
+}
+
+form {
+	text-align: center;
+}
+
+.submit {
+	color: blue;
+	background-color: black;
+}
+
+footer {
+	text-align: center;
+}

@@ -1,0 +1,50 @@
+body
+{
+	width: 750px;
+	margin: 0 auto;
+	background-color: silver;
+}
+
+.titleText {
+	text-align: center;
+	color: blue;
+	font-size: 40px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subTitle {
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+	text-align: center;
+	color: blue;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topAlign {
+	vertical-align: top;
+}
+
+.rightAlign {
+	text-align: right;
+}
+
+.goodEvaluation
+{
+	text-align: center;
+    color: blue;
+}
+
+.badEvaluation
+{
+	text-align: center;
+    color: blue;
+}
+
+footer {
+	text-align: center;
+}

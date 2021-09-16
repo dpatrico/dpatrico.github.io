@@ -5,6 +5,7 @@ body
 {
 	width: 750px;
 	margin: 0 auto;
+	background-color: silver;
 }
 
 table
@@ -36,3 +37,56 @@ tbody tr:nth-child(odd) td
 {
 	background-color: lightgreen;
 }
+
+.titleText {
+	text-align: center;
+	color: blue;
+	font-size: 40px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subTitle {
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+	text-align: center;
+	color: blue;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+figure {
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+figcaption {
+	text-align: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+	color: black;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topAlign {
+	vertical-align: top;
+}
+
+.rightAlign {
+	text-align: right;
+}
+
+.greenBox {
+	background-color: lightgreen;
+	vertical-align: top;
+}
+
+footer {
+	text-align: center;
+}
+

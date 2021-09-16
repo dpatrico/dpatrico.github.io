@@ -3,7 +3,7 @@
 <html lang = "en">
 	<head>
 		<title>Danny Patricola << ITIS3135 << HTML Tables</title>
-		<meta charset = "utf-8" />	
+		<meta charset = "utf-8">	
 		
 		<nav>
 			<!-- This are the links to import the Bebas Neue font from google fonts -->
@@ -14,66 +14,21 @@
 			<!-- These are the links to import the Merriweather font from goole fonts -->
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">\
+			<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
 			<link rel = "stylesheet" href="Activity2.css" type = "text/css">
 		</nav>
-		<style>
-			body {
-				background-color: silver;
-			}
-		
-			h1 {
-				text-align: center;
-				color: blue;
-				font-size: 40px;
-				font-family: 'Bebas Neue', cursive;
-			}
-		
-			h2 {
-				text-align: center;
-				color: blue;
-				font-size: 30px;
-				font-family: 'Bebas Neue', cursive;
-			}
-		
-			ul {
-				font-size: 15px;
-				font-family: 'Merriweather', serif;
-			}
-		
-			nav {
-				text-align: center;
-				color: blue;
-				font-family: 'Merriweather', serif;
-			}
-		
-			figure {
-				text-align: center;
-			}
-		
-			figcaption {
-				text-align: center;
-				color: blue;
-				font-family: 'Merriweather', serif;
-			}
-		
-			p {
-				text-align: center;
-				color: blue;
-				font-family: 'Merriweather', serif;
-			}
-		
-		</style>
+
 	</head>
 	
-	<body style = "color: blue">
+	<body>
 		<header>
-			<h1>Danny Patricola << ITIS3135</h1>
-			<h2>HTML Tables</h2>
-		<header>
+			<h1 class = "titleText">Danny Patricola << ITIS3135</h1>
+			<h2 class = "subTitle">HTML Tables</h2>
+		</header>
 		
 		<main>
+			
 			<h3>My Tabular Data</h3>
 			<ol>
 				<li>Patricia Douglas pdoug@gmail.com 12</li>
@@ -84,7 +39,7 @@
 				<li>Nick Siconalfi nickys@icloud.com 18</li>
 				<li>Matt Moynihan moysh52@yahoo.com 10</li>
 			</ol>
-		
+		<div class = "text">
 			<h3>Employee Data in Simple Table</h3>
 				<table>
 					<thead>
@@ -94,7 +49,7 @@
 							<th class="right">Years of Service</th>
 						</tr>
 					</thead>
-					
+				
 					<tbody>
 						<tr>
 							<td>Patricia Douglas</td>
@@ -133,18 +88,88 @@
 						</tr>
 					</tbody>
 				</table>
+		</div>
+
+		<div class = "text">
+			<h3>Employee Data in Complex Table</h3>
+			<figure>
+				<figcaption>Employee Information</figcaption>
+				<table>
+					<thead>
+						<tr>
+							<th rowspan = "1" class = "leftAlign">Deparment</th> 
+							<th class = "leftAlign">Name</th>
+							<th class = "leftAlign">E-mail</th>
+							<th class="right">Years of Service</th>
+							<th class = "right">Monthly Salary</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td rowspan = "2" class = "topAlign">Marketing</td>
+							<td>Patricia Douglas</td>
+							<td>pdoug@gmail.com</td>
+							<td class = "right">12</td>
+							<td class = "rightAlign">$110,000</td>
+						</tr>
+						<tr>
+							<td>Danny Patricola</td>
+							<td>dpatrico@uncc.edu</td>
+							<td class = "right">15</td>
+							<td class = "rightAlign">$120,000</td>
+						</tr>
+						<tr>
+							<td rowspan = "3" class = "topAlign">Sales</td>
+							<td>Ricky Going</td>
+							<td>rgoing@uncc.edu</td>
+							<td class = "right">2</td>
+							<td class = "rightAlign">$60,000</td>
+						</tr>
+						<tr>
+							<td>Paul Massmann</td>
+							<td>paulm@yahoo.com</td>
+							<td class = "right">5</td>
+							<td class = "rightAlign">$70,000</td>
+						</tr>
+						<tr>
+							<td>Devin Flynn</td>
+							<td>flynny@gmail.com</td>
+							<td class = "right">8</td>
+							<td class = "rightAlign">$80,000</td>
+						</tr>
+						<tr>
+							<td rowspan = "2" class = "greenBox">Customer Service</td>
+							<td>Nick Siconalfi</td>
+							<td>nickys@icloud.com</td>
+							<td class = "right">18</td>
+							<td class = "rightAlign">$150,000</td>
+						</tr>
+						<tr>
+							<td>Matt Moynihan</td>
+							<td>moysh52@yahoo.com</td>
+							<td class = "right">10</td>
+							<td class = "rightAlign">$95,000</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan = "3" class = "rightAlign">Total Years of Service and Monthly Salaries</td>
+							<td class = "rightAlign">70</td>
+							<td class = "rightAlign">$685,000</td>
+						</tr>
+					</tfoot>
+				</table>
+			</figure>
+
+		</div>
 		</main>
-		
+	
 		<footer>
-		
+			<nav>
+			<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+			</nav>
 		</footer>
-
 	</body>
-	
-	
-
-	<footer>
-
-	</footer>
-
 </html>

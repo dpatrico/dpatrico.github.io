@@ -1,6 +1,6 @@
 body
 {
-	width: 750px;
+	width: 1000px;
 	margin: 0 auto;
 	background-color: silver;
 }
@@ -29,20 +29,22 @@ nav {
 	vertical-align: top;
 }
 
-.rightAlign {
-	text-align: right;
+.leftAlign {
+	text-align: left;
 }
 
 .goodEvaluation
 {
 	text-align: center;
     color: blue;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .badEvaluation
 {
 	text-align: center;
     color: blue;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer {

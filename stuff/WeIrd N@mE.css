@@ -1,0 +1,40 @@
+body
+{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.titleText {
+	color: black;
+	font-size: 40px;
+	font-family: ;
+}
+
+.subTitle {
+	color: black;
+	font-size: 30px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+	text-align: center;
+	color: black;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topAlign {
+	vertical-align: top;
+}
+
+.leftAlign {
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+}
+
+.text1 {
+    
+}

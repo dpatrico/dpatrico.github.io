@@ -1,0 +1,33 @@
+body {
+    background-color: #717C89;
+}
+
+h1 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #717C89;
+    background-color: #A1E5AB;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.class_links {
+    text-align: center;
+    color: #ADF6B1;
+}

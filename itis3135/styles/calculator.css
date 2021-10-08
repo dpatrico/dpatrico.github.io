@@ -1,0 +1,81 @@
+body {
+    background-color: #717C89;
+}
+
+h1 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #717C89;
+    background-color: #A1E5AB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.class_links {
+    text-align: center;
+    color: #ADF6B1;
+}
+
+/*
+After looking over the tutorial I had a good attempt but this was still extremely off compared
+to what it should be. I was missing a lot of extra attributes for most of the classes
+*/
+
+.calculator {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 15em;
+}
+
+.calculator_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display_screen {
+    background-color: #000;
+    color: #fff;
+    grid-column: span 4;
+    padding: 0.5em 1.25em;
+    text-align: right;
+    font-size: 30px;
+}
+
+.equal_key {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-row-end: 7;
+    background-color: #ffa500;
+}
+
+.operator_keys {
+    grid-row: 2;
+    font-size: 20px;
+}
+
+.number_keys {
+    font-size: 20px;
+}
+
+.deciaml_key {
+    font-size: 50px;
+}
+
+.clear_key {
+    font-size: 20px;
+}

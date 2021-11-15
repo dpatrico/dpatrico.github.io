@@ -1,0 +1,36 @@
+body {
+    background-color: slategray;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: mediumturquoise;
+}
+
+main {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: mediumturquoise;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: mediumturquoise;
+}

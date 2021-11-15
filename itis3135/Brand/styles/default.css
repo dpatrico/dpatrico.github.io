@@ -1,0 +1,138 @@
+/*This is the link to the generated color scheme: https://coolors.co/717c89-8aa2a9-90baad-a1e5ab-adf6b1-->*/
+
+body {
+    background-color: #717C89;
+}
+
+h1 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    color: #717c89;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    color: #717C89;
+    background-color: #A1E5AB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    font-size: 15px;
+}
+
+select {
+    font-size: 15px;
+}
+
+.pantherPicture {
+    margin: 30px;
+}
+
+.introduction {
+    text-align: center;
+    color: #A1E5AB;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bullet_type {
+    list-style-type: square !important;
+    text-align: center;
+    list-style: inside;
+    color: #717C89;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list_intro {
+    text-align: center;
+    color: #717C89;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.green_box {
+    background-color: #ADF6B1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.closing {
+    color: #A1E5AB;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 500px;
+}
+
+.caption {
+    color: #A1E5AB;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    color: #717c89;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact_form {
+    color: #717c89;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#submit {
+    color: #717c89;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#dropdown {
+    color: #717c89;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.brand_links {
+    color: #A1E5AB;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

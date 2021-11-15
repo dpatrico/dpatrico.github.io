@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Danny Patricola << ITIS3135 << Whimsical Brand Page 3</title>
+            <meta charset="utf-8">
+
+            <!--This is the defaut css file-->
+            <link rel="stylesheet" href="styles/default.css" type="text/css">
+
+            <!--This is the link to the script from W3 schools-->
+            <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div w3-include-html="components/header.html"></div>
+
+        <script>
+            w3.includeHTML();
+        </script>
+    </header>
+
+    <main>
+        <h2>Slideshow</h2>
+
+        <img class="brand" src="images/panthermascot.png"  alt="Panther Logo">
+        <img class="brand" src="images/23084quick-panther-mascot-costume-000.png" alt="Panther Mascot Costume">        
+        <img class="brand" src="images/black-panther-mascot-sticker-31791-550x550.png" alt="Panther Sticker">
+        <img class="brand" src="images/11225083473_ca00d2a986_w.jpg" alt="Panther Statue">
+        <img class="brand" src="images/panther-openclipart-org.png" alt="Company Logo">
+        <img class="brand" src="images/dynamic-panther-enterprises.png" alt="Dynamic Panther Enterprises">
+
+
+        <script>
+            w3.slideshow(".nature");
+        </script>
+    </main>
+
+    <footer>
+        <div w3-include-html="components/footer.html"></div>
+
+        <script>
+            w3.includeHTML();
+        </script>
+    </footer>
+</body>
+
+</html>

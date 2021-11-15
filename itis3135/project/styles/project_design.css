@@ -1,0 +1,60 @@
+/*This is the link to the generated color scheme: https://coolors.co/6f8695-2a6041-f1f2eb-02020a-05204a*/
+
+.background_color {
+    background-color: #6f8695;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+    background-color: #2a6041;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+}
+
+main {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F1F2EB;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #2a6041;
+    color: #F1F2EB;
+}
+
+.navigation_bar {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #05204A;
+    color: #F1F2EB;
+}
+
+a {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #05204A;
+    color: #F1F2EB;
+}
+
+.sitemap {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F1F2EB;
+    text-align: center;
+    font-size: 20px;
+}

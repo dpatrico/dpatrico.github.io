@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Danny Patricola << ITIS3135 << Whimsical Brand Page 2</title>
+            <meta charset="utf-8">
+
+            <!--This is the defaut css file-->
+            <link rel="stylesheet" href="styles/default.css" type="text/css">
+
+            <!--This is the link to the script from W3 schools-->
+            <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+            <!--This is the link to the script for the form script-->
+            <script src="scripts/contact-form.js"></script>
+</head>
+
+<body>
+    <header>
+        <div w3-include-html="components/header.html"></div>
+
+        <script>
+            w3.includeHTML();
+        </script>
+    </header>
+
+    <main>
+        <h2>Contact</h2>
+
+        <div class="green_box">
+            <form class="contact_form">
+                <br>
+                <h3><strong>Please enter your contact information below</strong></h3>
+                <label for="fname"><strong>First Name</strong></label>
+                <input type="text" id="fname" name="firstname" placeholder="Your firsrt name is..." required>
+                <br><br>
+
+                <label for="lname"><strong>Last Name</strong></label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name is..." required>
+                <br><br>
+
+                <label for="dropdown"><strong>Preferred Method of Contact</strong></label>
+                <select id="dropdown" name="method">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="mail">Mail</option>
+                </select>
+                <br><br>
+                <input type="text" id="method_entry" name="method_entry" placeholder="Enter the preferred method"
+                    required>
+                <br>
+
+                <h3><strong>Do you agree to be contacted by Dynamic Panther Enterprises</strong></h3>
+                <input type="checkbox" id="agree" name="contact_agreement" value="Yes" required>
+                <label for="agree"><strong>Yes I agree to be contacted</strong></label>
+                <br><br>
+
+                <button type="submit" id="submit" onclick="submittedForm()"><strong>Submit</strong></button>
+                <br><br>
+            </form>
+        </div>
+
+        <p class="closing"><strong>Thank you for your interest in our companies servicies... We will be contacting you
+                soon!</strong></p>
+    </main>
+
+    <footer>
+        <div w3-include-html="components/footer.html"></div>
+
+        <script>
+            w3.includeHTML();
+        </script>
+    </footer>
+</body>
+
+</html>

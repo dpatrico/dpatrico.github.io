@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 
-<html lang = "en">
-	<head>
-		<title>Danny Patricola << ITIS3135 << HTML Form</title>
-		<meta charset = "utf-8">	
-		
-		<nav>
-			<!-- This are the links to import the Bebas Neue font from google fonts -->
-			<link rel="preconnect" href="https://fonts.googleapis.com">
-			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-		
-			<!-- These are the links to import the Merriweather font from goole fonts -->
-			<link rel="preconnect" href="https://fonts.googleapis.com">
-			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<html lang="en">
 
-			<link rel = "stylesheet" href="styles/Activity3.css" type = "text/css">
-		</nav>
-	</head>
+<head>
+    <title>Danny Patricola || ITIS3135 || HTML Form</title>
+    <meta charset="utf-8">
 
-	<body class = "background">
-		<header>
-			<h1 class = "titleText">Danny Patricola << ITIS3135</h1>
-			<h2 class = "subTitle">HTML Form</h2>
-        </header>
-		
-		<main>
-            <form class = "form">
-                <div class = "formText">
-                <h3>Would You Like to Recieve Our Company's News Letter?</h3>
-                <label for = "fname">First Name:</label><br>
-                <input type = "name" id = "fname" name = "fname" required><br>
-                <label for = "lname">Last Name:</label><br>
-                <input type = "name" id = "lname" name = "lname" required><br>
-                <label for = "fname">Email Address:</label><br>
-                <input type = "email" id = "eaddress" name = "eaddress" placeholder = "dpatrico@uncc.edu" required><br>
+    <nav>
+        <!-- This are the links to import the Bebas Neue font from google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-                <h3>What Are You Most Interested in?</h3>
-                <input type = "checkbox" id = "news" name = "interests" value = "General News">
-                <label for = "news">General News</label>
-                <input type = "checkbox" id = "ent" name = "interests" value = "Entertainment">
-                <label for = "ent">Entertainment</label>
-                <input type = "checkbox" id = "sports" name = "interests" value = "Sports">
-                <label for = "sports">Sports</label>
-                <input type = "checkbox" id = "jobs" name = "interests" value = "Job Listings">
-                <label for = "jobs">Job Listings</label>
-                <input type = "checkbox" id = "houses" name = "interests" value = "House Listings">
-                <label for = "houses">House Listings</label>
+        <!-- These are the links to import the Merriweather font from goole fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
-                <h3>Are You 18 or Over?</h3>
-                <input type = "radio" id = "ageYes" name = "age" required>
-                <label for = "ageYes">Yes</label>
-                <input type = "radio" id = "ageNo" name = "age">
-                <label for = "ageNo">No</label>
+        <link rel="stylesheet" href="styles/Activity3.css" type="text/css">
+    </nav>
 
-                <h3>Would You Like to Opt Out?</h3>
-                <select name = "optOut" id="opt" size = "2" required>
-                    <option value = "yes">Yes please do not send the news letter</option>
-                    <option value = "no">No I would like to recieve the news letter</option>
-                </select>
-                <br>
-                <input type="submit" value="Submit" class = "submit">
-                </div>
-            </form>
-		</main>
-		
-		<footer>
-            <nav>
-            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
-			<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
-            </nav>
-		</footer>
-	</body>
+<body class="background">
+    <header>
+        <h1 class="titleText">Danny Patricola || ITIS3135</h1>
+        <h2 class="subTitle">HTML Form</h2>
+    </header>
+
+    <form class="form">
+        <div class="formText">
+            <h3>Would You Like to Recieve Our Company's News Letter?</h3>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="fname">Email Address:</label><br>
+            <input type="email" id="eaddress" name="eaddress" placeholder="dpatrico@uncc.edu" required><br>
+
+            <h3>What Are You Most Interested in?</h3>
+            <input type="checkbox" id="news" name="interests" value="General News">
+            <label for="news">General News</label>
+            <input type="checkbox" id="ent" name="interests" value="Entertainment">
+            <label for="ent">Entertainment</label>
+            <input type="checkbox" id="sports" name="interests" value="Sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="jobs" name="interests" value="Job Listings">
+            <label for="jobs">Job Listings</label>
+            <input type="checkbox" id="houses" name="interests" value="House Listings">
+            <label for="houses">House Listings</label>
+
+            <h3>Are You 18 or Over?</h3>
+            <input type="radio" id="ageYes" name="age" required>
+            <label for="ageYes">Yes</label>
+            <input type="radio" id="ageNo" name="age">
+            <label for="ageNo">No</label>
+
+            <h3>Would You Like to Opt Out?</h3>
+            <select name="optOut" id="opt" size="2" required>
+                <option value="yes">Yes please do not send the news letter</option>
+                <option value="no">No I would like to recieve the news letter</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit" class="submit">
+        </div>
+    </form>
+
+    <footer>
+        <nav>
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </nav>
+    </footer>
+</body>
+
 </html>

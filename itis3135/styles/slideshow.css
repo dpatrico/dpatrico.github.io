@@ -1,0 +1,45 @@
+/*This is the link to the generated color scheme: https://coolors.co/717c89-8aa2a9-90baad-a1e5ab-adf6b1*/
+
+body {
+    background-color: #717C89;
+}
+
+h1 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: #ADF6B1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #717C89;
+    background-color: #A1E5AB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pantherPicture {
+    margin: 30px;
+}
+
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 500px;
+}
+
+.caption {
+    color: #A1E5AB;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}

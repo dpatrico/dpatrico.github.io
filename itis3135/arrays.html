@@ -10,30 +10,17 @@
                 <link rel="stylesheet" href="styles/arrays.css" type="text/css">
                 <script src="scripts/arrays.js"></script>
             </nav>
-</head>
+
+            <!--This is the link to the script from W3 schools-->
+            <script src="https://www.w3schools.com/lib/w3.js"></script>
 
 <body>
     <header>
-        <h1 class="title">Danny Patricola << ITIS3135</h1>
-                <nav class="class-links">
-                    <a href="introduction.html">Introduction</a>
-                    ||
-                    <a href="tables.html">Tables</a>
-                    ||
-                    <a href="forms.html">Form</a>
-                    ||
-                    <a href="brand-dynamic-panther.html">Dynamic Panther Enterprises</a>
-                    ||
-                    <a href="first-scripts.html">First Script</a>
-                    ||
-                    <a href="polygon-name.html">Polygon Names</a>
-                    ||
-                    <a href="calculator.html">Calculator</a>
-                    ||
-                    <a href="calculator_fcc.html">Calculator FCC</a>
-                    ||
-                    <a href="arrays.html">Arrays</a>
-                </nav>
+        <div w3-include-html="components/header.html"></div>
+
+        <script>
+            w3.includeHTML();
+        </script>
     </header>
 
     <main>
@@ -68,17 +55,11 @@
     </main>
 
     <footer>
-        <nav>
-            <p><strong>Page Built by Dynamic Panther Enterprises</strong></p>
-            <a href="https://validator.w3.org/check?uri=referer">
-                <img style="border:0;width:88px;height:31px" src="images/button-valid-html5.gif" alt="Valid HTML!" />
-            </a>
+        <div w3-include-html="components/footer.html"></div>
 
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
-                    alt="Valid CSS!" />
-            </a>
-        </nav>
+        <script>
+            w3.includeHTML();
+        </script>
     </footer>
 </body>
 

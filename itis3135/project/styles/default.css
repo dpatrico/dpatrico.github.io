@@ -1,0 +1,401 @@
+/*This is the link to the generated color scheme: https://coolors.co/6f8695-2a6041-f1f2eb-02020a-05204a*/
+
+.background_color {
+    background-color: #6F8695;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+    background-color: #2A6041;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+    margin-bottom: -10px;
+}
+
+main {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F1F2EB;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #2A6041;
+    color: #F1F2EB;
+}
+
+/*This is the style I used to create my navigation bar*/
+
+.navigation_bar {
+    background-color: #05204A;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0px 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation_bar a {
+    color: #F1F2EB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.navigation_links {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigation_links {
+    font-size: 15px;
+    border: inherit;
+    outline: inherit;
+    color: #F1F2EB;
+    padding: 14px 16px;
+    background-color: #05204A;
+    font-family: inherit;
+    margin: inherit;
+}
+
+.navigation_bar_hover:hover, .navigation_links:hover {
+    background-color: #02020A;
+}
+
+/*This is the ending for the navigation bar style*/
+
+/*This is the start for the logo/header style*/
+.logo_left {
+    margin-bottom: 10px;
+    max-block-size: 300px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.logo_right {
+    margin-bottom: 10px;
+    max-block-size: 300px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+/*This is the ending for the logo style*/
+
+/*This is to allow the footer elemets to be hovered over without causing them to have the same dark background color as the nagivagiton bar links*/
+.footer_a:hover {
+    background-color: #2A6041;
+}
+
+/*This is the start of the index home page css*/
+.company_header {
+    margin-top: -15px;
+}
+
+.home_background {
+    background-image: url('../images/tent_background.jpg');
+    height: 1050px;
+    background-size: cover;
+    margin-top: -25px;
+}
+
+.home_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 75px;
+    text-align: center;
+    color: #F1F2EB;
+    padding-top: 150px;
+}
+
+.home_slogan {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #F1F2EB;
+    padding-top: 675px;
+}
+
+/*This is the end of the index home page css*/
+
+
+/*This is the gallery css*/
+.gallery_image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 500px;
+}
+
+.lightbox_image {
+    width: 250px;
+    height: 250px;
+}
+
+#lightbox_gallery {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#lightbox_gallery a {
+    color: #6F8695;
+}
+
+.exit_info {
+    color: #F1F2EB;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gallery_intro {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+    padding-top: 30px;
+}
+
+.slider_background {
+    background-color: #05204A;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+/*This is the end of the gallery css*/
+
+/*This is the contact form css*/
+.contact_form {
+    color: #F1F2EB;
+    background-color: #2A6041;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact_closing {
+    color: #F1F2EB;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact_form_box {
+    background-color: #05204A;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comments {
+    height: 100px;
+    width: 300px;
+}
+
+/*This is the end of the contact form css*/
+
+/*This is the locations avaliable css*/
+.counties {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.suffolk_title {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #2A6041;
+    padding-top: 30px;
+}
+
+.nassau_title {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #2A6041;
+}
+
+.location_intro {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.zip_code_check {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.location_box {
+    text-align: center;
+    background-color: #05204A;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#zipCode {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*This is the end of the locations avaliable css*/
+
+/*This is the start of the package page css*/
+.package1 {
+    text-align: center;
+    background-color: #05204A;
+}
+
+.package2 {
+    text-align: center;
+    background-color: #2A6041;
+}
+
+.package3 {
+    text-align: center;
+    background-color: #05204A;
+}
+
+.centered_list {
+    display: inline-block;
+    text-align: left;
+}
+
+.package_title_green {
+    color: #2A6041;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.package_title_blue {
+    color: #05204A;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.package_image {
+    max-block-size: 500px;
+    min-block-size: 500px;
+}
+
+.package_cost {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+}
+
+/*This is the end of the package page css*/
+
+/*This is the start for the team webpage css*/
+.employee1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: #05204A;
+    padding-top: 30px;
+}
+
+.employee2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: #2A6041;
+    padding-top: 30px;
+}
+
+.employee3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: #05204A;
+    padding-top: 30px;
+}
+
+.employee_image {
+    max-block-size: 500px;
+    min-block-size: 500px;
+}
+
+/*This is the end for the team webpage css*/
+
+/*This is the start of the css for the About us webpage*/
+.about_us_text {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: #2A6041;
+    color: #F1F2EB;
+    padding: 50px;
+}
+
+.page_links {
+    color: #05204A;
+}
+
+/*This is the end of the css for the About us webpage*/
+
+/*This is the start of my description page css*/
+.description_text {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #F1F2EB;
+}
+
+.description_background {
+    background-color: #05204A;
+}
+
+/*This is the end of my description page css*/

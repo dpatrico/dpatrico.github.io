@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 
-<html lang = "en">
-	<head>
-		<title>Danny Patricola << ITIS3135 << Project Index</title>
-		<meta charset = "utf-8">	
-	
-	</head>
+<html lang="en" class="background_color">
 
-	<body>
-		<header>
-            <h1>Douglas Tents</h1>
-        </header>
+<head>
+    <title>Danny Patricola << ITIS3135 << Project_About</title>
+            <meta charset="utf-8">
 
-		<main>
-            <h2>Home</h2>
+            <link rel="stylesheet" href="styles/default.css" type="text/css">
 
+            <!--This is the script to allow my dynamic header/footer to work without errors-->
+            <script src="scripts/HTMLinclude.js"></script>
+</head>
 
-		</main>	
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+        <script>HTMLInclude();</script>
+        <br><br>
+    </header>
 
-		<footer>
-            <nav>
-                <p><strong>Page Built by Danny Patricola</strong></p>
-                <a href="https://validator.w3.org/check?uri=referer"> 
-                <img style="border:0;width:88px;height:31px" src="images/button-valid-html5.gif" alt="Valid HTML!" />
-                </a>
-    
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
-                </a>
-            </nav>
-		</footer>
-	</body>
+    <main>
+        <h2>About Us</h2>
+        <p class="about_us_text">
+            Here at Jim Douglas Tents Inc we provide the best tent rental services for the best price. We have three
+            different tent sizes and tons of extra addons so you can customize the event the way you want it. We always
+            strive to meet all of our customers needs no matter the request. Feel free to visit and look over our
+            <a class="page_links" href="package.html"> current packages</a> for more information on what services we
+            provide and what
+            <a class="page_links" href="locations.html"> locations are available</a> for those services. You can also
+            view information on
+            all of our team members and if you have any questions feel free to
+            <a class="page_links" href="contact.html"> contact us here!</a>
+        </p>
+    </main>
+
+    <footer>
+        <div data-include="components/footer.html"></div>
+        <script>HTMLInclude();</script>
+    </footer>
+</body>
+
 </html>

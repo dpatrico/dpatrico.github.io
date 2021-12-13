@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" class="background_color">
 
 <head>
-      <title>Danny Patricola << ITIS3135 << Project Index</title>
+      <title>Danny Patricola << ITIS3135 << Project_Index</title>
                   <meta charset="utf-8">
 
+                  <link rel="stylesheet" href="styles/default.css" type="text/css">
+
+                  <!--This is the script to allow my dynamic header/footer to work without errors-->
+                  <script src="scripts/HTMLinclude.js"></script>
 </head>
 
 <body>
       <header>
-            <div w3-include-html="components/header.html"></div>
-
-            <script>
-                  w3.includeHTML();
-            </script>
+            <div data-include="components/header.html"></div>
+            <script>HTMLInclude();</script>
+            <br><br>
       </header>
 
-      <main>
-            <h2>Home</h2>
-
-
+      <main class="home_background">
+            <h2 class="home_title">Welcome to Jim Douglas Tents Inc</h2>
+            <h3 class="home_slogan">Please Check Out Our Website! Let Us Know How We Could Help You!</h3>
       </main>
 
       <footer>
-            <nav>
-                  <p><strong>Page Built by Danny Patricola</strong></p>
-                  <a href="https://validator.w3.org/check?uri=referer">
-                        <img style="border:0;width:88px;height:31px" src="images/button-valid-html5.gif"
-                              alt="Valid HTML!" />
-                  </a>
-
-                  <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                        <img style="border:0;width:88px;height:31px"
-                              src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
-                  </a>
-            </nav>
+            <div data-include="components/footer.html"></div>
+            <script>HTMLInclude();</script>
       </footer>
 </body>
 

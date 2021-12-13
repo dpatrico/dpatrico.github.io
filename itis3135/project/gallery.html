@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en" class="background_color">
+
+<head>
+    <title>Danny Patricola << ITIS3135 << Project_Gallery</title>
+            <meta charset="utf-8">
+
+            <link rel="stylesheet" href="styles/default.css" type="text/css">
+
+            <!--This is the script to allow my dynamic header/footer to work without errors-->
+            <script src="scripts/HTMLinclude.js"></script>
+
+            <!--These are the links for my jquery slider-->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+            <!--This is the script for the lightbox-->
+            <script src="scripts/lightbox.js"></script>
+
+            <script>
+                var $j = jQuery.noConflict();
+                $j(document).ready(function () {
+                    $j(".slider").bxSlider();
+                });
+            </script>
+</head>
+
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+        <script>HTMLInclude();</script>
+        <br><br>
+    </header>
+
+    <main>
+        <h2>Gallery</h2>
+
+        <h3 class="gallery_intro">Please feel free to veiw photos of our amazing equipment and past event setups!
+        </h3>
+        <div class="slider_background">
+            <br>
+            <div class="slider">
+                <img class="gallery_image" src="images/20x20.jpg" alt="20x20 Tent">
+                <img class="gallery_image" src="images/20x30.jpg" alt="20x30 Tent">
+                <img class="gallery_image" src="images/20x40.jpg" alt="20x40 Tent">
+                <img class="gallery_image" src="images/Bar_setup.jpg" alt="Bar Setup">
+                <img class="gallery_image" src="images/Table_setup.jpg" alt="Table Setup">
+            </div>
+        </div>
+
+        <h4 class="exit_info">Use the back button on your browser to exit the image!</h4>
+        <div id="lightbox_gallery">
+            <a href="images/20x20.jpg" title="$('#gallery').lightBox();" class="lightbox_background">
+                <img class="lightbox_image" src="images/20x20.jpg" alt="20x20 Tent">
+            </a>
+            <a href="images/20x30.jpg" title="$('#gallery a').lightBox();">
+                <img class="lightbox_image" src="images/20x30.jpg" alt="20x30 Tent">
+            </a>
+            <a href="images/20x40.jpg" title="$('#gallery a').lightBox();">
+                <img class="lightbox_image" src="images/20x40.jpg" alt="20x40 Tent">
+            </a>
+            <a href="images/Bar_setup.jpg" title="$('#gallery a').lightBox();">
+                <img class="lightbox_image" src="images/Bar_setup.jpg" alt="Bar Setup">
+            </a>
+            <a href="images/Table_setup.jpg" title="$('#gallery a').lightBox();">
+                <img class="lightbox_image" src="images/Table_setup.jpg" alt="Table Setup">
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div data-include="components/footer.html"></div>
+        <script>HTMLInclude();</script>
+    </footer>
+</body>
+
+</html>

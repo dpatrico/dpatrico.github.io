@@ -38,19 +38,73 @@ footer {
     color: #F1F2EB;
 }
 
+/*This is the style I used to create my navigation bar*/
+
 .navigation_bar {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #05204A;
-    color: #F1F2EB;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0px 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #05204A;
+.navigation_bar a {
     color: #F1F2EB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
 }
+
+.navigation_links {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigation_links {
+    font-size: 15px;
+    border: inherit;
+    outline: inherit;
+    color: #F1F2EB;
+    padding: 14px 16px;
+    background-color: #05204A;
+    font-family: inherit;
+    margin: inherit;
+}
+
+a:hover, .navigation_links:hover {
+    background-color: #02020A;
+}
+
+/*This is the ending for the navigation bar style*/
+
+/*This is the start for the logo style*/
+.logo_left {
+    margin-bottom: 10px;
+    max-block-size: 300px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.logo_right {
+    margin-bottom: 10px;
+    max-block-size: 300px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+/*This is the ending for the logo style*/
+
+/*This is to allow the footer elemets to be hovered over without causing them to have the same dark background color as the nagivagiton bar links*/
+.footer_a:hover {
+    background-color: #2A6041;
+}
+
+/*This is the style for my sitemap image that was imbedded on the project design page*/
 
 .sitemap {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

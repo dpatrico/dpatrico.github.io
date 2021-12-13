@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en" class="background_color">
+
+<head>
+    <title>Danny Patricola << ITIS3135 << Project_Location</title>
+            <meta charset="utf-8">
+
+            <link rel="stylesheet" href="styles/default.css" type="text/css">
+            <script src="scripts/locations.js"></script>
+
+            <!--This is the script to allow my dynamic header/footer to work without errors-->
+            <script src="scripts/HTMLinclude.js"></script>
+
+            <!--These are the links to the jquery accordion-->
+            <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+            <script>
+                $(function () {
+                    $("#accordion").accordion({
+                        collapsible: true,
+                        heightStyle: "content",
+                        active: false
+                    });
+                });
+            </script>
+</head>
+
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+        <script>HTMLInclude();</script>
+        <br><br>
+    </header>
+
+    <main>
+        <h2>Location's Avaliable</h2>
+
+        <div class="zip_code_check">
+            <label for="zipCode"></label>
+            <input type="text" id="zipCode" placeholder="Enter your Zip Code here..." onKeyUp="validateZip()" />
+            <div id="message"></div>
+        </div>
+
+        <p class="location_intro">Jim Douglas Tents Inc offers services all throughout Long Island, NY. Below you can
+            see the listed zip codes and towns that have access to Jim Douglas' tent rentals.</p>
+
+        <div class="location_box">
+            <div id="accordion" class="counties">
+                <h3 class="suffolk_title"><strong>Suffolk County: (Zip Code/Town)</strong></h3>
+                <p>
+                    11930 (Amagansett) | 11931 (Aquebogue) | 11702 (Babylon) | 11706 (Bay Shore) | 11705 (Bayport) |
+                    11715
+                    (Blue Point) | 11716 (Bohemia) | 11717 (Brentwood) | 11932 (Bridgehampton) | 11718 (Brightwaters) |
+                    11719 (Brookhaven) | 11933 (Calverton) | 11934 (Center Moriches) | 11720 (Centereach) | 11721
+                    (Centerport) | 11722 (Central Islip) | 11724 (Cold Spring Harbor) | 11725 (Commack) | 11726
+                    (Copiague)
+                    | 11727 (Coram) | 11935 (Cutchogue) | 11729 (Deer Park) | 11730 (East Islip) | 11939 (East Marion) |
+                    11940 (East Moriches) | 11731 (East Northport) | 11772 (East Patchogue) | 11942 (East Quogue) |
+                    11786
+                    (East Shoreham) | 11941 (Eastport) | 11738 (Farmingville) | 06390 (Fishers Island) | 11768 (Fort
+                    Salonga) | 11739 (Great River) | 11740 (Greenlawn) | 11944 (Greenport) | 11946 (Hampton Bays) |
+                    11788
+                    (Hauppauge) | 11741 (Holbrook) | 11742 (Holtsville) | 11743 (Huntington) | 11746 (Huntington
+                    Station) |
+                    11749 (Islandia) | 11751 (Islip) | 11752 (Islip Terrace) | 11947 (Jamesport) | 11970 (Jamesport) |
+                    11754
+                    (Kings Park) | 11755 (Lake Grove) | 11948 (Laurel) | 11757 (Lindenhurst) | 11949 (Manorville) |
+                    11950
+                    (Mastic) | 11951 (Mastic Beach) | 11952 (Mattituck) | 11763 (Medford) | 11747 (Melville) | 11953
+                    (Middle
+                    Island) | 11764 (Miller Place) | 11954 (Montauk) | 11955 (Moriches) | 11766 (Mount Sinai) | 11767
+                    (Nesconset) | 11956 (New Suffolk) | 11701 (North Amityville) | 11703 (North Babylon) | 11713 (North
+                    Bellport) | 11968 (North Sea) | 11963 (Noyack) | 11769 (Oakdale) | 11770 (Ocean Beach) | 11957
+                    (Orient)
+                    | 11958 (Peconic) | 11777 (Port Jefferson) | 11959 (Quogue) | 11960 (Remsenburg-Speonk) | 11972
+                    (Remsenburg-Speonk) | 11961 (Ridge) | 11901 (Riverhead) | 11778 (Rocky Point) | 11779 (Ronkonkoma) |
+                    11962 (Sagaponack) | 11782 (Sayville) | 11784 (Selden) | 11733 (Setauket-East Setauket) | 11964
+                    (Shelter
+                    Island) | 11965 (Shelter Island Heights) | 11967 (Shirley) | 11787 (Smithtown) | 11789 (Sound Beach)
+                    |
+                    11971 (Southold) | 11937 (Springs) | 11780 (St. James) | 11790 (Stony Brook) | 11794 (Stony Brook
+                    University) | 11776 (Terryville) | 11973 (Upton) | 11792 (Wading River) | 11975 (Wainscott) | 11976
+                    (Water Mill) | 11704 (West Babylon) | 11795 (West Islip) | 11796 (West Sayville) | 11977
+                    (Westhampton) |
+                    11978 (Westhampton Beach) | 11798 (Wyandanch) | 11980 (Yaphank)
+                </p>
+                <h3 class="nassau_title"><strong>Nassau County: (Zip Code/Twon)</strong></h3>
+                <p>
+                    11507 (Albertson) | 11509 (Atlantic Beach) | 11510 (Baldwin) | 11709 (Bayville) | 11714 (Bethpage) |
+                    11548 (Brookville) | 11514 (Carle Place) | 11516 (Cedarhurst) | 11549 (East Garden City) | 11576
+                    (East
+                    Hills) | 11554 (East Meadow) | 11732 (East Norwich) | 11518 (East Rockaway) | 11003 (Elmont) | 11001
+                    (Floral Park) | 11010 (Franklin Square) | 11520 (Freeport) | 11530 (Garden City) | 11542 (Glen Cove)
+                    |
+                    11545 (Glen Head) | 11547 (Glenwood Landing) | 11023 (Great Neck) | 11021 (Great Neck Plaza) | 11550
+                    (Hempstead) | 11557 (Hewlett) | 11801 (Hicksville) | 11096 (Inwood) | 11558 (Island Park) | 11753
+                    (Jericho) | 11024 (Kings Point) | 11042 (Lake Success) | 11559 (Lawrence) | 11756 (Levittown) |
+                    11560
+                    (Locust Valley) | 11561 (Long Beach) | 11563 (Lynbrook) | 11565 (Malverne) | 11030 (Manhasset) |
+                    11758
+                    (Massapequa) | 11762 (Massapequa Park) | 11566 (Merrick) | 11765 (Mill Neck) | 11501 (Mineola) |
+                    11710
+                    (North Bellmore) | 11040 (North New Hyde Park) | 11572 (Oceanside) | 11804 (Old Bethpage) | 11568
+                    (Old
+                    Westbury) | 11771 (Oyster Bay) | 11803 (Plainview) | 11569 (Point Lookout) | 11050 (Port Washington)
+                    |
+                    11570 (Rockville Centre) | 11575 (Roosevelt) | 11577 (Roslyn Heights) | 11579 (Sea Cliff) | 11783
+                    (Seaford) | 11735 (South Farmingdale) | 11791 (Syosset) | 11553 (Uniondale) | 11556 (Uniondale) |
+                    11020
+                    (University Gardens) | 11580 (Valley Stream) | 11581 (Valley Stream) | 11793 (Wantagh) | 11552 (West
+                    Hempstead) | 11590 (Westbury) | 11596 (Williston Park) | 11797 (Woodbury) | 11598 (Woodmere)
+                </p>
+            </div>
+            <br>
+        </div>
+    </main>
+
+    <footer>
+        <div data-include="components/footer.html"></div>
+        <script>HTMLInclude();</script>
+    </footer>
+</body>
+
+</html>
